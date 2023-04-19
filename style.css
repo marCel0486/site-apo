@@ -80,6 +80,19 @@ header{
     padding: 1em;
 }
 
+.sobre h1{
+    padding: 10px;
+    font-size: 2.50em;
+    color: var(--color-3);
+
+}
+
+.sobre p {
+    padding: 10px;
+    line-height: 2;
+    font-size: 1.50em;
+}
+
 .container{
     display: flex;
     justify-content: center;
@@ -158,5 +171,26 @@ footer {
     background: var(--color-3);
     margin-top: 15px;
     
+}
+
+
+/*animação scroll */
+
+[data-anime] {
+    opacity: 0;
+    transition: .2s;
+}
+
+[data-anime="left"] {
+    transform: translate3d(-35px, 0, 0);
+}
+
+[data-anime="rigth"] {
+    transform: translate3d(35px, 0, 0);
+}
+
+[data-anime].animate {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
 }
 
