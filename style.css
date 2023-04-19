@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: var(--bg-color);
+    color: var(--color-2);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul,li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+:root {
+    --bg-color:#101010;
+    --color-1: black;
+    --color-2: white;
+    --color-3: #CC0000;
+    --color-4: #850101;
+    --color-5: #4A0001;
+    
+}
+
+header{
+   background-color:var(--color-1);
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   align-items: center;
+   padding: 10px;
+   margin: 0 auto;
+}
+
+.logo{
+    font-size: 2.5em;
+    color: var(--color-3);
+}
+
+.logo:hover{
+   color: var(--color-4); 
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu li {
+    padding: 5px;
+}
+
+.menu a {
+    font-size: 1.25em;
+}
+
+.menu a:hover{
+    color: var(--color-4);
+}
+
+ p{
+    font-size: 1.25em;
+    text-align: center;
+    padding: 1em;
+ }
+ 
+
+ h1 {
+    font-size: 2.25em;
+    color: var(--color-3);
+    text-align: center;
+    padding: 1em;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 0 60px;
+    margin: 0 auto;
+    
+    
+}
+
+.card{
+    min-width: 350px;
+    width: 500px;
+    background: var(--color-3);
+    border-radius: 10px;
+}
+
+
+
+.card-head {
+    
+    text-align: center;
+    height: 100px;
+    background: var(--color-4);
+    padding-top: 30px ;
+    
+}
+
+.card-title {
+    font-size: 2.5em;
+}
+
+@media(max-width:700px){
+    .card-title {
+        font-size: 2.25em;
+    }
+}
+
+.card-preco{
+    font-size: 2.25em;
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+
+.card-content p{
+    font-size: 1.25em;
+    line-height: 2;
+    padding: 0 10px;
+    
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+button{
+    
+    height: 60px;
+    width: 200px;
+    color: white;
+    padding: 15px 45px;
+    background-color: var(--color-4);
+    border: none;
+    border-radius: 10px;
+    font-size: 1.25em;
+    transition: 1s;
+
+}
+
+button:hover{
+    background-color: #4A0001;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background: var(--color-3);
+    margin-top: 15px;
+    
+}
+
