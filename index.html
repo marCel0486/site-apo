@@ -4,14 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site apostas</title>
+    <title>betprojekt</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/x-icon">
 </head>
 <body>
     <header>
-        <a class="logo" href="index.html"> <img src="img/bet projekt.png"></a>
-        <nav class="menu js-menu">
-            <ul>
+        <a class="logo" href="index.html"> <img class="logo-img" src="img/bet projekt.png"></a>
+
+        <nav class="menu js-menu" id="nav">
+            <button aria-label="Abrir Menu" class="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+
+                <span id="hamburguer">
+
+                </span>
+            </button>
+            <ul id="menu" role="menu">
                 <li>
                     <a href="#sobre">Sobre nós</a>
                 </li>
@@ -21,8 +29,11 @@
                 <li>
                     <a href="#contato">Contato</a>
                 </li>
-            </ul>
+            
+        
         </nav>
+        
+        
     </header>
 
     <section class="sobre" id="sobre" data-anime="left">
@@ -92,7 +103,7 @@ Obs- Ainda não disponibilizamos planilhas pois estamos no nosso primeiro mês.
                 
             </div>
             <div class="btn">
-                <button><a href="">Assinar</a></button>
+                <button class="btn-assinar"><a href="">Assinar</a></button>
             </div>
             
            
@@ -101,10 +112,21 @@ Obs- Ainda não disponibilizamos planilhas pois estamos no nosso primeiro mês.
     </div>
 
     <footer>
-        &copy; Betprojekt 2023
+
+        <div class="footer-cnt" id="contato">
+           <a href=""><img src="img/icons8-whatsapp.svg" alt=""></a> 
+            <a href="https://www.facebook.com/profile.php?id=100091842224631&mibextid=LQQJ4d" target="_blank"><img src="img/icons8-facebook.svg" alt=""></a>
+           <a href="https://www.instagram.com/betprojekt_/?igshid=YmMyMTA2M2Y%3D" target="_blank"><img src="img/icons8-instagram.svg" alt=""></a>
+           <a href="https://twitter.com/betprojekt?s=21&t=b_ZbPN9xCBetXWguoxV6hw" target="_blank"><img src="img/icons8-twitter.svg" alt=""></a>
+            
+            </div>
+        &copy; Betprojekt 2023  
+
+        
     </footer>
 
     <script src="main.js"></script>
+
     
 </body>
 </html>
