@@ -1,0 +1,28 @@
+/*sobre */
+
+p{
+    font-size: 1.25em;
+    text-align: center;
+    padding: 1em;
+ }
+ 
+
+ h1 {
+    font-size: 2.25em;
+    color: var(--color-3);
+    text-align: center;
+    padding: 1em;
+}
+
+.sobre h1{
+    padding: 10px;
+    font-size: 2.50em;
+    color: var(--color-3);
+
+}
+
+.sobre p {
+    padding: 10px;
+    line-height: 2;
+    font-size: 1.50em;
+}

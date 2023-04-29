@@ -1,0 +1,83 @@
+/*container */
+
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 0 60px;
+    margin: 0 auto;
+    
+    
+}
+
+.card{
+    min-width: 350px;
+    width: 500px;
+    background: var(--color-3);
+    border-radius: 5px;
+    
+}
+
+
+
+.card-head {
+    
+    text-align: center;
+    height: 100px;
+    background: var(--color-4);
+    padding: 10px;
+    
+}
+
+.card-title {
+    font-size: 2.25em;
+}
+
+
+.card-subtitle{
+    font-size: 1.5em;
+}
+
+.card-preco{
+    font-size: 2.5em;
+    display: block;
+    text-align: center;
+    margin: 20px;
+    
+   
+}
+
+.card-preco>sup {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-content p{
+    font-size: 1.25em;
+    line-height: 2;
+    padding: 0 10px;
+    
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.btn-assinar{
+    
+    height: 60px;
+    width: 200px;
+    color: white;
+    padding: 15px 45px;
+    background-color: var(--color-4);
+    border: none;
+    border-radius: 10px;
+    font-size: 1.25em;
+    transition: 1s;
+
+}
+
+.btn-assinar:hover{
+    background-color: #4A0001;
+}
