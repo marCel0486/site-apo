@@ -1,8 +1,13 @@
+
+
 footer {
     text-align: center;
     padding: 15px;
     background: var(--color-3);
     margin-top: 15px;
+    font-family: 'Baskervville', serif;
+    font-size: 1.25em;
+    
     
 }
 
