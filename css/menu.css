@@ -10,15 +10,41 @@ header{
     margin: 0 auto;
     
  }
+
+ .logo{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+    
+ }
+
+ .logo-span{
+    font-family: 'Baskervville', serif;
+    font-size: 1.5em;
+    color: var(--color-3);
+    padding-left: 8px;
+    font-weight: bold;
+    
+ }
+
+@media (max-width:600px){
+    .logo-span{
+        margin-bottom: 12px;
+    }
+}
+
+  
  
  .logo img{
      display: block;
-     width: 70%;
+     width: 40%;
+     margin: 0;
  }
  
  @media (max-width:600px) {
      .logo img{
-         width: 50%;
+         width: 30%;
          margin-bottom: 10px;
      }
  
